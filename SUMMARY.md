@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Fluent Bit](README.md)
+* [Introduction](README.md)
 
 ## About
 

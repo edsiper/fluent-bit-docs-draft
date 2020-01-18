@@ -2,7 +2,7 @@
 description: Next generation Log and Stream processor
 ---
 
-# Fluent Bit
+# Introduction
 
 ## Getting Super Powers
 
