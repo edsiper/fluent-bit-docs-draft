@@ -53,7 +53,7 @@ The only input plugin that **don't** assign Tags is Forward input. This plugin s
 
 ### Timestamp
 
-The Timestamp represents the _time_ when an Event was generated. Every Event contains a Timestamp associated. The Timestamp is a numeric fractional integer in the format:
+The Timestamp represents the _time_ when an Event was created. Every Event contains a Timestamp associated. The Timestamp is a numeric fractional integer in the format:
 
 ```javascript
 SECONDS.NANOSECONDS
@@ -61,7 +61,21 @@ SECONDS.NANOSECONDS
 
 #### Seconds
 
-It is the number of seconds that have elapsed since the _Unix epoch_
+It is the number of seconds that have elapsed since the _Unix epoch._
 
 #### Nanoseconds
+
+Fractional second or one thousand-millionth of a second.
+
+{% hint style="info" %}
+A timestamp always exists, either set by the Input plugin or discovered through a data parsing process.
+{% endhint %}
+
+### Match
+
+Fluent Bit allows to deliver your collected and processed Events to one or multiple destinations, this is done through a routing phase. A Match represent a simple rule to select Events where it Tags maches a defined rule.
+
+FIXME: More about Tag and Matchs in the Routing section.
+
+
 
