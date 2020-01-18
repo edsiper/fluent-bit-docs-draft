@@ -42,6 +42,7 @@
   * [Input](data-pipeline/input.md)
   * [Parser](data-pipeline/parser.md)
   * [Filter](data-pipeline/filter.md)
-* [Buffer](buffer.md)
-* [Router](router.md)
+  * [Buffer](data-pipeline/buffer.md)
+  * [Router](data-pipeline/router.md)
+  * [Output](data-pipeline/output.md)
 
