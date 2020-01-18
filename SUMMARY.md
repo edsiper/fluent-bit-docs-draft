@@ -69,5 +69,8 @@
   * [Collectd](pipeline/inputs/collectd.md)
   * [CPU Metrics](pipeline/inputs/cpu-metrics.md)
   * [Disk I/O Metrics](pipeline/inputs/disk-i-o-metrics.md)
+  * [Dummy](pipeline/inputs/dummy.md)
+  * [Exec](pipeline/inputs/exec.md)
+  * [Forward](pipeline/inputs/forward.md)
 * [Filters](pipeline/filters.md)
 
