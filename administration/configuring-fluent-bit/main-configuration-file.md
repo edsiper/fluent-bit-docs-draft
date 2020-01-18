@@ -1,2 +1,2 @@
-# Main Configuration File
+# Configuration File
 

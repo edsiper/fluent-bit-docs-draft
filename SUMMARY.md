@@ -48,12 +48,17 @@
   * [Files Schema / Structure](administration/configuring-fluent-bit/files-schema-structure/README.md)
     * [Variables](administration/configuring-fluent-bit/files-schema-structure/variables.md)
     * [Commands](administration/configuring-fluent-bit/files-schema-structure/commands.md)
-  * [Main Configuration File](administration/configuring-fluent-bit/main-configuration-file.md)
+  * [Configuration File](administration/configuring-fluent-bit/main-configuration-file.md)
 * [Security](administration/security.md)
+* [Backpressure](administration/backpressure.md)
 * [Memory Management](administration/memory-management.md)
+* [Monitoring](administration/monitoring.md)
+
+## Stream Processing
+
+* [Untitled](stream-processing/untitled.md)
 
 ## Fluent Bit for Developers <a id="development"></a>
 
 * [C Library API](development/library_api.md)
-* [Backpressure](backpressure.md)
 
