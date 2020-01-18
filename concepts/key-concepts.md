@@ -1,3 +1,9 @@
+---
+description: >-
+  There are a few key concepts that are really important to understand how
+  Fluent Bit operates.
+---
+
 # Key Concepts
 
 Before diving into [Fluent Bit](https://fluentbit.io) it’s good to get acquainted with some of the key concepts of the service. This document provides a gentle introduction to those concepts and common [Fluent Bit](https://fluentbit.io) terminology. We’ve provided a list below of all the terms we’ll cover, but we recommend reading this document from start to finish to gain a more general understanding of our log and stream processor.
@@ -78,5 +84,25 @@ FIXME: More about Tag and Matchs in the Routing section.
 
 ### Structured Message
 
-Events can have or not have a structure. A structure defines a set of _keys_ and _values_ inside the Event message. 
+Events can have or not have a structure. A structure defines a set of _keys_ and _values_ inside the Event message. As an example consider the following two messages:
+
+#### No structured message
+
+```javascript
+"Project Fluent Bit created on 1398289291"
+```
+
+#### Structured Message
+
+```javascript
+{"project": "Fluent Bit", "created": 1398289291}
+```
+
+At a low level both are just an array of bytes, but the Structured message defines _keys_ and _values_, having a structure helps to implement faster operations on data modifications.
+
+{% hint style="info" %}
+Fluent Bit **always** handle every Event message as a structured message. For performance reasons, we use a binary serialization data format called [MessagePack](https://msgpack.org/). 
+
+Consider [MessagePack](https://msgpack.org/) as a binary version of JSON on steroids. 
+{% endhint %}
 
