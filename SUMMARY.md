@@ -45,7 +45,10 @@
 ## Administration
 
 * [Configuring Fluent Bit](administration/configuring-fluent-bit/README.md)
-  * [Files Schema / Structure](administration/configuring-fluent-bit/files-schema-structure.md)
+  * [Security](administration/configuring-fluent-bit/security.md)
+  * [Files Schema / Structure](administration/configuring-fluent-bit/files-schema-structure/README.md)
+    * [Variables](administration/configuring-fluent-bit/files-schema-structure/variables.md)
+    * [Commands](administration/configuring-fluent-bit/files-schema-structure/commands.md)
   * [Main Configuration File](administration/configuring-fluent-bit/main-configuration-file.md)
 
 ## Fluent Bit for Developers <a id="development"></a>
