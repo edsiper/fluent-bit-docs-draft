@@ -31,9 +31,9 @@
   * [Ubuntu](installation/linux-packages/ubuntu.md)
   * [Raspbian / Raspberry Pi](installation/linux-packages/raspbian-raspberry-pi.md)
 * [Docker](installation/docker.md)
+* [Kubernetes](installation/kubernetes.md)
 
 ## Fluent Bit for Developers <a id="development"></a>
 
 * [C Library API](development/library_api.md)
-* [Kubernetes](kubernetes.md)
 
