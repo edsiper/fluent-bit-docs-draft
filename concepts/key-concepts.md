@@ -12,7 +12,9 @@ Before diving into [Fluent Bit](https://fluentbit.io) it’s good to get acquain
 
 ### Event or Record
 
-Every incoming piece of data that belongs to a log or a metric that is retrieved by Fluent Bit is considered an Event or a Record. As an example consider a simple log file that contains several messages, e.g:
+Every incoming piece of data that belongs to a log or a metric that is retrieved by Fluent Bit is considered an Event or a Record. 
+
+As an example consider the following content of a Syslog file:
 
 ```text
 Jan 18 12:52:16 flb systemd[2222]: Starting GNOME Terminal Server
@@ -21,7 +23,9 @@ Jan 18 12:52:16 flb systemd[2222]: Started GNOME Terminal Server.
 Jan 18 12:52:16 flb gsd-media-keys[2640]: # watch_fast: "/org/gnome/terminal/legacy/" (establishing: 0, active: 0)
 ```
 
+It contains four lines and all  of them represents **four** independent Events. 
 
+### Filtering
 
-
+In some cases is required to perform modifications on the Events content.  This process to alter, enrich or drop Events is called Filtering. 
 
