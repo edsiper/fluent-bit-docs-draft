@@ -17,5 +17,10 @@
 
 ## Installation
 
-* [Untitled](installation/untitled.md)
+* [Supported Platforms](installation/untitled.md)
+* [Requirements](installation/requirements.md)
+
+## Fluent Bit for Developers <a id="development"></a>
+
+* [C Library API](development/library_api.md)
 
