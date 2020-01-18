@@ -55,14 +55,6 @@
 * [Memory Management](administration/memory-management.md)
 * [Monitoring](administration/monitoring.md)
 
-## Stream Processing
-
-* [Untitled](stream-processing/untitled.md)
-
-## Fluent Bit for Developers <a id="development"></a>
-
-* [C Library API](development/library_api.md)
-
 ## Data Pipeline <a id="pipeline"></a>
 
 * [Inputs](pipeline/inputs/README.md)
@@ -126,4 +118,12 @@
   * [Splunk](pipeline/outputs/splunk.md)
   * [TCP & TLS](pipeline/outputs/tcp-and-tls.md)
   * [Treasure Data](pipeline/outputs/treasure-data.md)
+
+## Stream Processing
+
+* [Untitled](stream-processing/untitled.md)
+
+## Fluent Bit for Developers <a id="development"></a>
+
+* [C Library API](development/library_api.md)
 
