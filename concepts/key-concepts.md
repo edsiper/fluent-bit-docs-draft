@@ -2,12 +2,27 @@
 
 Before diving into [Fluent Bit](https://fluentbit.io) it’s good to get acquainted with some of the key concepts of the service. This document provides a gentle introduction to those concepts and common [Fluent Bit](https://fluentbit.io) terminology. We’ve provided a list below of all the terms we’ll cover, but we recommend reading this document from start to finish to gain a more general understanding of our log and stream processor.
 
-* Event
+* Event or Record
 * Filtering
 * Tag
 * Timestamp
 * Match
 * Source
+* Structured Message
+
+### Event or Record
+
+Every incoming piece of data that belongs to a log or a metric that is retrieved by Fluent Bit is considered an Event or a Record. As an example consider a simple log file that contains several messages, e.g:
+
+```text
+Jan 18 12:52:16 monox systemd[2222]: Starting GNOME Terminal Server...
+Jan 18 12:52:16 monox gnome-terminal-server[19170]: Display does not support owner-change; copy/paste will be broken!
+Jan 18 12:52:16 monox dbus-daemon[2243]: [session uid=1000 pid=2243] Successfully activated service 'org.gnome.Terminal'
+Jan 18 12:52:16 monox systemd[2222]: Started GNOME Terminal Server.
+Jan 18 12:52:16 monox gsd-media-keys[2640]: # watch_fast: "/org/gnome/terminal/legacy/" (establishing: 0, active: 0)
+```
+
+
 
 
 
