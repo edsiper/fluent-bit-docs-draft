@@ -38,4 +38,7 @@
 ## Fluent Bit for Developers <a id="development"></a>
 
 * [C Library API](development/library_api.md)
+* [Data Pipeline](data-pipeline/README.md)
+  * [Parser](data-pipeline/parser.md)
+  * [Input](data-pipeline/input.md)
 
