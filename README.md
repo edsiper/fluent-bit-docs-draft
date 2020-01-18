@@ -1,8 +1,8 @@
 ---
-description: page description is optional
+description: Next generation Log and Stream processor
 ---
 
-# Introduction
+# Fluent Bit
 
 ## Getting Super Powers
 
