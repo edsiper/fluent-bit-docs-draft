@@ -27,5 +27,17 @@ It contains four lines and all  of them represents **four** independent Events.
 
 ### Filtering
 
-In some cases is required to perform modifications on the Events content.  This process to alter, enrich or drop Events is called Filtering. 
+In some cases is required to perform modifications on the Events content,  the process to alter, enrich or drop Events is called Filtering. 
+
+There are many use cases when Filtering is required like:
+
+* Append specific information to the Event like an IP address or metadata.
+* Select a specific piece of the Event content.
+* Drop Events that matches certain pattern.
+
+### Tag
+
+Every Event that gets into Fluent Bit gets assigned a Tag. This tag is an internal string that is used in a later stage by the Router to decide which Filter or Output phase it must go through.
+
+Most of the tags are assigned manually in the configuration. If a tag is not specified, Fluent Bit will assign the name of the 
 
