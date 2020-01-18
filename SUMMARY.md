@@ -43,4 +43,5 @@
   * [Parser](data-pipeline/parser.md)
   * [Filter](data-pipeline/filter.md)
 * [Buffer](buffer.md)
+* [Router](router.md)
 
