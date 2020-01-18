@@ -24,6 +24,10 @@
   * [Download Source Code](installation/sources/download-source-code.md)
   * [Build and Install](installation/sources/build-and-install.md)
   * [Build with Static Configuration](installation/sources/build-with-static-configuration.md)
+* [Linux Packages](installation/linux-packages/README.md)
+  * [CentOS](installation/linux-packages/centos.md)
+  * [Debian](installation/linux-packages/debian.md)
+  * [Ubuntu](installation/linux-packages/ubuntu.md)
 
 ## Fluent Bit for Developers <a id="development"></a>
 
