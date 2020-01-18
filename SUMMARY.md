@@ -17,11 +17,13 @@
 
 ## Installation
 
+* [Upgrade Notes](installation/upgrade-notes.md)
 * [Supported Platforms](installation/untitled.md)
 * [Requirements](installation/requirements.md)
 * [Sources](installation/sources/README.md)
   * [Download Source Code](installation/sources/download-source-code.md)
   * [Build and Install](installation/sources/build-and-install.md)
+  * [Build with Static Configuration](installation/sources/build-with-static-configuration.md)
 
 ## Fluent Bit for Developers <a id="development"></a>
 
