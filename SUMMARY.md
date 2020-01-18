@@ -36,4 +36,5 @@
 ## Fluent Bit for Developers <a id="development"></a>
 
 * [C Library API](development/library_api.md)
+* [Yocto / Embedded Linux](yocto-embedded-linux.md)
 
