@@ -2,7 +2,7 @@
 description: page description is optional
 ---
 
-# Initial page
+# Introduction
 
 ## Getting Super Powers
 

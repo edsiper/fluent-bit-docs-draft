@@ -1,8 +1,8 @@
 # Table of contents
 
-* [Initial page](README.md)
+* [Introduction](README.md)
 
-## Group 1 <a id="input"></a>
+## About
 
-* [example page under group 1](input/example-page-under-group-1.md)
+* [What is Fluent Bit ?](about/example-page-under-group-1.md)
 
