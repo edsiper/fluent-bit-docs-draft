@@ -39,5 +39,9 @@ There are many use cases when Filtering is required like:
 
 Every Event that gets into Fluent Bit gets assigned a Tag. This tag is an internal string that is used in a later stage by the Router to decide which Filter or Output phase it must go through.
 
-Most of the tags are assigned manually in the configuration. If a tag is not specified, Fluent Bit will assign the name of the 
+Most of the tags are assigned manually in the configuration. If a tag is not specified, Fluent Bit will assign the name of the Input plugin instance from where that Event was generated from.
+
+{% hint style="info" %}
+The only input plugin that **don't** assign Tags is Forward input. This plugin is Fluentd wire protocol where every Event already comes with the original Tag. Fluent Bit will use the incoming Tag set by the client.
+{% endhint %}
 
