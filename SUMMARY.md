@@ -39,6 +39,8 @@
 
 * [C Library API](development/library_api.md)
 * [Data Pipeline](data-pipeline/README.md)
-  * [Parser](data-pipeline/parser.md)
   * [Input](data-pipeline/input.md)
+  * [Parser](data-pipeline/parser.md)
+  * [Filter](data-pipeline/filter.md)
+* [Buffer](buffer.md)
 
