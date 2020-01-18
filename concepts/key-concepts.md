@@ -42,6 +42,6 @@ Every Event that gets into Fluent Bit gets assigned a Tag. This tag is an intern
 Most of the tags are assigned manually in the configuration. If a tag is not specified, Fluent Bit will assign the name of the Input plugin instance from where that Event was generated from.
 
 {% hint style="info" %}
-The only input plugin that **don't** assign Tags is Forward input. This plugin is Fluentd wire protocol where every Event already comes with the original Tag. Fluent Bit will use the incoming Tag set by the client.
+The only input plugin that **don't** assign Tags is Forward input. This plugin speaks the Fluentd wire protocol called Forward where every Event already comes with a Tag associated. Fluent Bit will always use the incoming Tag set by the client.
 {% endhint %}
 
