@@ -7,7 +7,6 @@ Before diving into [Fluent Bit](https://fluentbit.io) it’s good to get acquain
 * Tag
 * Timestamp
 * Match
-* Source
 * Structured Message
 
 ### Event or Record
@@ -77,5 +76,7 @@ Fluent Bit allows to deliver your collected and processed Events to one or multi
 
 FIXME: More about Tag and Matchs in the Routing section.
 
+### Structured Message
 
+Events can have or not have a structure. A structure defines a set of _keys_ and _values_ inside the Event message. 
 
