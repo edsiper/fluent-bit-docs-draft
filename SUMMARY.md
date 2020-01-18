@@ -13,5 +13,5 @@
 ## Concepts
 
 * [Key Concepts](concepts/key-concepts.md)
-* [Buffering](buffering.md)
+* [Buffering](concepts/buffering.md)
 
