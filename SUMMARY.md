@@ -63,9 +63,11 @@
 
 * [C Library API](development/library_api.md)
 
-## Pipeline
+## Data Pipeline <a id="pipeline"></a>
 
 * [Inputs](pipeline/inputs/README.md)
   * [Collectd](pipeline/inputs/collectd.md)
+  * [CPU Metrics](pipeline/inputs/cpu-metrics.md)
+  * [Disk I/O Metrics](pipeline/inputs/disk-i-o-metrics.md)
 * [Filters](pipeline/filters.md)
 
