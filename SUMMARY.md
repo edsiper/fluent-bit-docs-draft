@@ -63,3 +63,9 @@
 
 * [C Library API](development/library_api.md)
 
+## Pipeline
+
+* [Inputs](pipeline/inputs/README.md)
+  * [Collectd](pipeline/inputs/collectd.md)
+* [Filters](pipeline/filters.md)
+
