@@ -126,4 +126,6 @@
 ## Fluent Bit for Developers <a id="development"></a>
 
 * [C Library API](development/library_api.md)
+* [Ingest Records Manually](development/ingest-records-manually.md)
+* [Golang Output Plugins](development/golang-output-plugins.md)
 
