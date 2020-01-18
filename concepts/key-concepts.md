@@ -23,7 +23,13 @@ Jan 18 12:52:16 flb systemd[2222]: Started GNOME Terminal Server.
 Jan 18 12:52:16 flb gsd-media-keys[2640]: # watch_fast: "/org/gnome/terminal/legacy/" (establishing: 0, active: 0)
 ```
 
-It contains four lines and all  of them represents **four** independent Events. 
+It contains four lines and all of them represents **four** independent Events. 
+
+Internally, an Event always has two minimum components in an array form:
+
+```javascript
+[TIMESTAMP, MESSAGE]
+```
 
 ### Filtering
 
@@ -47,5 +53,7 @@ The only input plugin that **don't** assign Tags is Forward input. This plugin s
 
 ### Timestamp
 
+The Timestamp represents the _time_ when an Event was generated. Every Event contains a Timestamp associated. The Timestamp is a numeric fractional integer in the format:
 
+> seconds.nanoseconds
 
