@@ -25,9 +25,12 @@
   * [Build and Install](installation/sources/build-and-install.md)
   * [Build with Static Configuration](installation/sources/build-with-static-configuration.md)
 * [Linux Packages](installation/linux-packages/README.md)
+  * [Amazon Linux](installation/linux-packages/amazon-linux.md)
   * [CentOS](installation/linux-packages/centos.md)
   * [Debian](installation/linux-packages/debian.md)
   * [Ubuntu](installation/linux-packages/ubuntu.md)
+  * [Raspbian / Raspberry Pi](installation/linux-packages/raspbian-raspberry-pi.md)
+* [Docker](installation/docker.md)
 
 ## Fluent Bit for Developers <a id="development"></a>
 
