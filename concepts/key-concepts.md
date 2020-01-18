@@ -25,7 +25,7 @@ Jan 18 12:52:16 flb gsd-media-keys[2640]: # watch_fast: "/org/gnome/terminal/leg
 
 It contains four lines and all of them represents **four** independent Events. 
 
-Internally, an Event always has two minimum components in an array form:
+Internally, an Event always has two components \(in an array form\):
 
 ```javascript
 [TIMESTAMP, MESSAGE]
