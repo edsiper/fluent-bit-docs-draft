@@ -55,5 +55,13 @@ The only input plugin that **don't** assign Tags is Forward input. This plugin s
 
 The Timestamp represents the _time_ when an Event was generated. Every Event contains a Timestamp associated. The Timestamp is a numeric fractional integer in the format:
 
-> seconds.nanoseconds
+```javascript
+SECONDS.NANOSECONDS
+```
+
+#### Seconds
+
+It is the number of seconds that have elapsed since the _Unix epoch_
+
+#### Nanoseconds
 
