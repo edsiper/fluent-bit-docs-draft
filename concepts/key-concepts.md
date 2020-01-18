@@ -45,3 +45,7 @@ Most of the tags are assigned manually in the configuration. If a tag is not spe
 The only input plugin that **don't** assign Tags is Forward input. This plugin speaks the Fluentd wire protocol called Forward where every Event already comes with a Tag associated. Fluent Bit will always use the incoming Tag set by the client.
 {% endhint %}
 
+### Timestamp
+
+
+
