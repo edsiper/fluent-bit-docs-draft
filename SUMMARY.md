@@ -42,6 +42,12 @@
 * [Yocto / Embedded Linux](installation/yocto-embedded-linux.md)
 * [Windows](installation/windows.md)
 
+## Administration
+
+* [Configuring Fluent Bit](administration/configuring-fluent-bit/README.md)
+  * [Files Schema / Structure](administration/configuring-fluent-bit/files-schema-structure.md)
+  * [Main Configuration File](administration/configuring-fluent-bit/main-configuration-file.md)
+
 ## Fluent Bit for Developers <a id="development"></a>
 
 * [C Library API](development/library_api.md)
