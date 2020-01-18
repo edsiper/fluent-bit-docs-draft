@@ -14,6 +14,13 @@
 
 * [Key Concepts](concepts/key-concepts.md)
 * [Buffering](concepts/buffering.md)
+* [Data Pipeline](concepts/data-pipeline/README.md)
+  * [Input](concepts/data-pipeline/input.md)
+  * [Parser](concepts/data-pipeline/parser.md)
+  * [Filter](concepts/data-pipeline/filter.md)
+  * [Buffer](concepts/data-pipeline/buffer.md)
+  * [Router](concepts/data-pipeline/router.md)
+  * [Output](concepts/data-pipeline/output.md)
 
 ## Installation
 
@@ -24,12 +31,12 @@
   * [Download Source Code](installation/sources/download-source-code.md)
   * [Build and Install](installation/sources/build-and-install.md)
   * [Build with Static Configuration](installation/sources/build-with-static-configuration.md)
-* [Linux Packages](installation/linux-packages/README.md)
-  * [Amazon Linux](installation/linux-packages/amazon-linux.md)
-  * [CentOS](installation/linux-packages/centos.md)
-  * [Debian](installation/linux-packages/debian.md)
-  * [Ubuntu](installation/linux-packages/ubuntu.md)
-  * [Raspbian / Raspberry Pi](installation/linux-packages/raspbian-raspberry-pi.md)
+* [Linux Packages](installation/linux/README.md)
+  * [Amazon Linux](installation/linux/amazon-linux.md)
+  * [CentOS](installation/linux/centos.md)
+  * [Debian](installation/linux/debian.md)
+  * [Ubuntu](installation/linux/ubuntu.md)
+  * [Raspbian / Raspberry Pi](installation/linux/raspbian-raspberry-pi.md)
 * [Docker](installation/docker.md)
 * [Kubernetes](installation/kubernetes.md)
 * [Yocto / Embedded Linux](installation/yocto-embedded-linux.md)
@@ -38,11 +45,4 @@
 ## Fluent Bit for Developers <a id="development"></a>
 
 * [C Library API](development/library_api.md)
-* [Data Pipeline](data-pipeline/README.md)
-  * [Input](data-pipeline/input.md)
-  * [Parser](data-pipeline/parser.md)
-  * [Filter](data-pipeline/filter.md)
-  * [Buffer](data-pipeline/buffer.md)
-  * [Router](data-pipeline/router.md)
-  * [Output](data-pipeline/output.md)
 
