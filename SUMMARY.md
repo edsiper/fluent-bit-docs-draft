@@ -49,11 +49,14 @@
     * [Variables](administration/configuring-fluent-bit/files-schema-structure/variables.md)
     * [Commands](administration/configuring-fluent-bit/files-schema-structure/commands.md)
   * [Configuration File](administration/configuring-fluent-bit/main-configuration-file.md)
+  * [Upstream Servers](administration/configuring-fluent-bit/upstream-servers.md)
+  * [Unit Sizes](administration/configuring-fluent-bit/unit-sizes.md)
 * [Security](administration/security.md)
 * [Buffering & Storage](administration/buffering-and-storage.md)
 * [Backpressure](administration/backpressure.md)
 * [Memory Management](administration/memory-management.md)
 * [Monitoring](administration/monitoring.md)
+* [Scheduling and Retries](administration/scheduling-and-retries.md)
 
 ## Data Pipeline <a id="pipeline"></a>
 
@@ -121,7 +124,7 @@
 
 ## Stream Processing
 
-* [Untitled](stream-processing/untitled.md)
+* [FIXME](stream-processing/untitled.md)
 
 ## Fluent Bit for Developers <a id="development"></a>
 
