@@ -50,6 +50,7 @@
     * [Commands](administration/configuring-fluent-bit/files-schema-structure/commands.md)
   * [Configuration File](administration/configuring-fluent-bit/main-configuration-file.md)
 * [Security](administration/security.md)
+* [Buffering & Storage](administration/buffering-and-storage.md)
 * [Backpressure](administration/backpressure.md)
 * [Memory Management](administration/memory-management.md)
 * [Monitoring](administration/monitoring.md)
