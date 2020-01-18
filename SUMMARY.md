@@ -32,9 +32,10 @@
   * [Raspbian / Raspberry Pi](installation/linux-packages/raspbian-raspberry-pi.md)
 * [Docker](installation/docker.md)
 * [Kubernetes](installation/kubernetes.md)
+* [Yocto / Embedded Linux](installation/yocto-embedded-linux.md)
+* [Windows](installation/windows.md)
 
 ## Fluent Bit for Developers <a id="development"></a>
 
 * [C Library API](development/library_api.md)
-* [Yocto / Embedded Linux](yocto-embedded-linux.md)
 
