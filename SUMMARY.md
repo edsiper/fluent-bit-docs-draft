@@ -88,6 +88,7 @@
   * [TCP](pipeline/inputs/tcp.md)
   * [Thermal](pipeline/inputs/thermal.md)
   * [Windows Event Log](pipeline/inputs/windows-event-log.md)
+* [Parsers](pipeline/parsers.md)
 * [Filters](pipeline/filters/README.md)
   * [AWS Metadata](pipeline/filters/aws-metadata.md)
   * [Grep](pipeline/filters/grep.md)
