@@ -4,6 +4,8 @@ description: Next generation Log and Stream processor
 
 # Introduction
 
+![](.gitbook/assets/logo_documentation_1.4.png)
+
 ## Getting Super Powers
 
 Becoming a super hero is a fairly straight forward process:
