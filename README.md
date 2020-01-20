@@ -14,18 +14,18 @@ description: Next generation Log and Stream processor
 * Data Parsing
   * Convert your unstructured messages using our parsers: [JSON](pipeline/parsers/json.md), [Regex](pipeline/parsers/regular-expression.md), [LTSV](pipeline/parsers/ltsv.md) and [Logfmt](pipeline/parsers/logfmt.md)
 * Reliability and Data Integrity
-  * [Backpressure](https://docs.fluentbit.io/manual/configuration/backpressure) Handling
-  * [Data Buffering](https://docs.fluentbit.io/manual/configuration/buffering) in memory and file system
+  * [Backpressure](administration/backpressure.md) Handling
+  * [Data Buffering](administration/buffering-and-storage.md) in memory and file system
 * Networking
   * Security: built-in TLS/SSL support
   * Asynchronous I/O
-* Pluggable Architecture and [Extensibility](https://docs.fluentbit.io/manual/development): Inputs, Filters and Outputs
+* Pluggable Architecture and [Extensibility](development/library_api.md): Inputs, Filters and Outputs
   * More than 50 built-in plugins available
   * Extensibility
     * Write any input, filter or output plugin in C language
-    * Bonus: write [Filters in Lua](https://docs.fluentbit.io/manual/filter/lua) or [Output plugins in Golang](https://docs.fluentbit.io/manual/development/golang_plugins)
-* [Monitoring](https://docs.fluentbit.io/manual/configuration/monitoring): expose internal metrics over HTTP in JSON and [Prometheus](https://prometheus.io/) format
-* [Stream Processing](https://docs.fluentbit.io/stream-processing/): Perform data selection and transformation using simple SQL queries
+    * Bonus: write [Filters in Lua](pipeline/filters/lua.md) or [Output plugins in Golang](development/golang-output-plugins.md)
+* [Monitoring](administration/monitoring.md): expose internal metrics over HTTP in JSON and [Prometheus](https://prometheus.io/) format
+* [Stream Processing](stream-processing/untitled.md): Perform data selection and transformation using simple SQL queries
   * Create new streams of data using query results
   * Aggregation Windows
   * Data analysis and prediction: Timeseries forecasting
