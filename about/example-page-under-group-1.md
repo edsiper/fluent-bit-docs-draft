@@ -10,7 +10,7 @@ Nowadays the number of sources of information in our environments is ever increa
 * Security
 * Multiple destinations
 
-Fluent Bit has been designed with performance and low resources consumption in mind. 
+[Fluent Bit](https://fluentbit.io) has been designed with performance and low resources consumption in mind. 
 
 
 
