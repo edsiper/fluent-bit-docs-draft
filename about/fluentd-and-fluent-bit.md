@@ -1,4 +1,2 @@
 # Fluentd & Fluent Bit
 
-F
-
