@@ -2,7 +2,7 @@
 description: Next generation Log and Stream processor
 ---
 
-# Introduction
+# Fluent Bit v1.4 Documentation
 
 ![](.gitbook/assets/logo_documentation_1.4.png)
 
