@@ -12,7 +12,7 @@ description: Next generation Log and Stream processor
 
 * High Performance
 * Data Parsing
-  * Convert your unstructured messages using our parsers: [JSON](pipeline/parsers/json.md), [Regex](https://docs.fluentbit.io/manual/parser/regular_expression), [LTSV](https://docs.fluentbit.io/manual/parser/ltsv) and [Logfmt](https://docs.fluentbit.io/manual/parser/logfmt)
+  * Convert your unstructured messages using our parsers: [JSON](pipeline/parsers/json.md), [Regex](pipeline/parsers/regular-expression.md), [LTSV](pipeline/parsers/ltsv.md) and [Logfmt](pipeline/parsers/logfmt.md)
 * Reliability and Data Integrity
   * [Backpressure](https://docs.fluentbit.io/manual/configuration/backpressure) Handling
   * [Data Buffering](https://docs.fluentbit.io/manual/configuration/buffering) in memory and file system
@@ -33,5 +33,9 @@ description: Next generation Log and Stream processor
 
 ### Fluent Bit, Fluentd and CNCF
 
-[Fluent Bit](http://fluentbit.io) is a sub-component of the [Fluentd](http://fluentd.org) project ecosystem, it's licensed under the terms of the [Apache License v2.0](http://www.apache.org/licenses/LICENSE-2.0). This project is primary sponsored by [Treasure Data](https://www.treasuredata.com) 
+[Fluent Bit](http://fluentbit.io) is a sub-component of the [Fluentd](http://fluentd.org) project ecosystem, it's licensed under the terms of the [Apache License v2.0](http://www.apache.org/licenses/LICENSE-2.0). This project was created by [Treasure Data](https://www.treasuredata.com) and is its current primary sponsor.
+
+Nowadays Fluent Bit get contributions from several companies and individuals and same as [Fluentd](https://www.fluentd.org), it's hosted as a [CNCF](https://cncf.io) subproject.
+
+
 
